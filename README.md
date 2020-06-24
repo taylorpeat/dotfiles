@@ -1,3 +1,13 @@
+## Custom Changes By Taylor
+* Added a new custom theme for zsh called myagnoster
+** You can preview it after installing using `prompt -p myagnoster`
+* To set it as the default add the code below to the end of the `.zshrc` file:
+```
+autoload -Uz promptinit
+  promptinit
+  prompt myagnoster
+```
+
      _     _           _
     | |   | |         | |
     | |___| |_____  __| | ____
